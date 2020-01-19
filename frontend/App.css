@@ -1,0 +1,29 @@
+#app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 30px;
+
+  display: flex;
+  flex-direction: row; /*tudo que esteja dentro do app fica uma ao lado da outra*/
+  align-items: flex-start; /*ficar sempre alinhado ao topo*/
+}
+
+#app main {
+  margin-left: 30px;
+}
+
+@media (max-width: 1000px) { /*deixando responsivo, quando chega a 1000px manda as postagem pra baixo*/
+  #app {
+    flex-direction: column;
+  }
+
+  #app main { /*reponsivo */
+    margin-left: 0;
+    margin-top: 30px;
+  }
+
+  #app aside { /*responsivo*/
+    width: 100%;
+  }
+
+}
