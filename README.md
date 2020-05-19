@@ -1,2 +1,2 @@
 # DevRadar
-Aplicação desenvolvida durante a Semana OmniStack
+Aplicação desenvolvida durante a Semana OmniStack 10.0
